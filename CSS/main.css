@@ -1,0 +1,181 @@
+body{
+    font-family: 'Open Sans', sans-serif;   
+}
+
+.hero{
+    width: 100%;
+    position: fixed;    
+    box-sizing: border-box;   
+    background-image: url(../img/foto_thiago.png);
+    background-position: center top;     
+    padding: 180px;    
+    position: relative;    
+}
+
+.max-width{   
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.max-width h1{
+    float: left;
+}
+
+.top-nav, .icon-redes {
+    margin-top: -150px;
+
+}
+
+.top-nav ul{    
+    position: relative;                  
+}
+
+.top-nav li{
+    display: inline-block;
+    padding: 1em;
+    list-style: none;              
+}
+
+.top-nav a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #353535;
+    position: relative;
+    right: -200px;    
+}
+
+.top-nav a:hover{
+    color:  #7dbf3b;
+    font-weight: bold;
+    border-bottom: 1px solid #353535;
+}
+
+.icon-redes{    
+    display: block;
+    position: relative;
+    top: -73px;
+}
+
+.icon-redes li{
+    list-style: none;         
+    float: right;
+    padding: .5em;    
+    font-size: 30px;       
+}
+
+.icon-redes a{
+    color: #353535;
+    text-decoration: none;
+}
+
+.icon-redes a:hover{
+    color:  #7dbf3b;
+}
+
+.button-search {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: .1.5em .2em;
+    background: #7dbf3b;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+input:focus{
+    border: 2px solid #7dbf3b;
+    outline: none;
+}
+
+.main-header-subtitle{
+    width: 80%; 
+    margin-top: 200px;
+    margin-right: auto;
+    text-align: justify;
+    color: #b2b2b2;
+    line-height: 1.5;  
+}
+
+.main-header-subtitle h2{
+    color: #373839;
+}
+
+.top-content-subtitle {
+    display: block;
+    padding-bottom: 50px;
+    padding-right: 400px;
+    text-align: left;    
+}
+
+.button{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: .9em 2.5em;
+    background: #7dbf3b;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.main-content{
+    width: 60%;    
+}
+
+.main-content p{
+    line-height: 1.5;
+}
+
+.row{
+    padding-top: 40px;
+    overflow: auto;
+}
+
+.col-2{
+    width:25%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.textarea{
+    display: block;
+    border-radius: 5px;    
+    height: 10em;
+    width: 40em;    
+}
+
+.input, textarea{
+    background-color: #e7e7e7;
+    padding: 5px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    margin-bottom:50px;  
+    
+}
+
+.button-mensagem{   
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 20px 530px;    
+    padding: .5em 2em;
+    border: 2px solid #7dbf3b;    
+    border-radius: 5px;
+    text-decoration: none;
+    color: #7dbf3b;
+}
+
+#mensagem:focus{
+    border: 2px solid #7dbf3b;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
