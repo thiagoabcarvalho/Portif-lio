@@ -20,21 +20,22 @@ body{
 
 .max-width h1{
     float: left;
+    margin-top: auto;
 }
 
-.top-nav, .icon-redes {
+.top-nav{    
     margin-top: -150px;
-
-}
-
-.top-nav ul{    
-    position: relative;                  
+    margin-right: auto;        
+    display: block;
+    position: relative;
 }
 
 .top-nav li{
     display: inline-block;
-    padding: 1em;
-    list-style: none;              
+    padding: 10px;
+    list-style: none;
+    position: relative;
+    right: 100px;                  
 }
 
 .top-nav a{
@@ -53,41 +54,27 @@ body{
     border-bottom: 1px solid #353535;
 }
 
-.icon-redes{    
-    display: block;
+.icon-redes {       
+    display: inline-block;
     position: relative;
+    right: -600px;
     top: -73px;
 }
 
 .icon-redes li{
-    list-style: none;         
-    float: right;
-    padding: .5em;    
+    list-style: none;            
+    float:right;
+    padding: .2em;    
     font-size: 30px;       
 }
 
 .icon-redes a{
+    text-decoration: none;    
     color: #353535;
-    text-decoration: none;
 }
 
 .icon-redes a:hover{
     color:  #7dbf3b;
-}
-
-.button-search {
-    text-transform: uppercase;
-    display: inline-block;
-    padding: .1.5em .2em;
-    background: #7dbf3b;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-}
-
-input:focus{
-    border: 2px solid #7dbf3b;
-    outline: none;
 }
 
 .main-header-subtitle{
@@ -103,10 +90,77 @@ input:focus{
     color: #373839;
 }
 
+.button-search {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: .1.5em .2em;
+    background: #7dbf3b;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Londrina Outline', cursive;
+    letter-spacing: 5px;
+    color: #7dbf3b;
+    font-size: 40px;
+}
+
+.row{
+    list-style: none;
+}
+
+.icon-hab li{
+    border: 2px solid #7dbf3b;
+    border-radius: 5px;    
+    margin-right: 15px;
+    margin-left: -12px;
+    display: inline-block;
+    text-decoration: none;    
+    color: #353535;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.icon-hab li h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.icon-hab p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #ccc;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/*até aqui acho que está correto*/
+
+.cinza{
+    background: #f7f5f5;    
+    margin: 0 auto;    
+    padding: 10px;    
+}
+
+.main-content{
+    width: 60%;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    float: inline-end;       
+}
+
 .top-content-subtitle {
     display: block;
+    padding-top: 50px;
     padding-bottom: 50px;
-    padding-right: 400px;
+    padding-right: 200px;
     text-align: left;    
 }
 
@@ -118,14 +172,6 @@ input:focus{
     border-radius: 5px;
     text-decoration: none;
     color: white;
-}
-
-.main-content{
-    width: 60%;    
-}
-
-.main-content p{
-    line-height: 1.5;
 }
 
 .row{
@@ -151,8 +197,7 @@ input:focus{
     padding: 5px;
     border-radius: 5px;
     border: 3px solid transparent;
-    margin-bottom:50px;  
-    
+    margin-bottom:50px;    
 }
 
 .button-mensagem{   

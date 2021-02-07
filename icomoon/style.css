@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?20o8o7');
-  src:  url('fonts/icomoon.eot?20o8o7#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?20o8o7') format('truetype'),
-    url('fonts/icomoon.woff?20o8o7') format('woff'),
-    url('fonts/icomoon.svg?20o8o7#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?toy982');
+  src:  url('fonts/icomoon.eot?toy982#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?toy982') format('truetype'),
+    url('fonts/icomoon.woff?toy982') format('woff'),
+    url('fonts/icomoon.svg?toy982#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,8 +25,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-circle-up:before {
-  content: "\ea41";
+.icon-images:before {
+  content: "\e90e";
+}
+.icon-bullhorn:before {
+  content: "\e91a";
+}
+.icon-stack:before {
+  content: "\e92e";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
 }
 .icon-behance:before {
   content: "\eaa8";
