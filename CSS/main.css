@@ -13,9 +13,10 @@ body{
 }
 
 .max-width{   
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1190px;
+    margin: 0 auto;
+    background: red;
+    
 }
 
 .max-width h1{
@@ -44,20 +45,20 @@ body{
     font-weight: bold;
     text-transform: uppercase;
     color: #353535;
-    position: relative;
-    right: -200px;    
+    letter-spacing: 1.5px;
+       
 }
 
 .top-nav a:hover{
     color:  #7dbf3b;
     font-weight: bold;
-    border-bottom: 1px solid #353535;
+    
 }
 
 .icon-redes {       
     display: inline-block;
     position: relative;
-    right: -600px;
+    left: 790px;
     top: -73px;
 }
 
@@ -79,20 +80,24 @@ body{
 
 .main-header-subtitle{
     width: 80%; 
-    margin-top: 200px;
-    margin-right: auto;
+    margin-top: 50px;    
     text-align: justify;
     color: #b2b2b2;
-    line-height: 1.5;  
+    line-height: 1.5;
+    position: relative;
+    right: 50px;  
 }
 
 .main-header-subtitle h2{
     color: #373839;
 }
 
+.main-header-subtitle h3{
+    color: black;
+}
+
 .top-content-subtitle {
-    display: block;
-    padding-top: 50px;
+    display: block;    
     padding-bottom: 50px;
     padding-right: 200px;
     text-align: left;    
